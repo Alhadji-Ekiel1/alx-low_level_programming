@@ -1,6 +1,6 @@
-#include "main.h";
+#include "main.h"
 /**
-*main - print EZEKIEL using _putchar
+*main - print using _putchar
 *Return: always returns 0
 */
 
@@ -14,8 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
 	_putchar('\n');
-	
 	return (0);
 }
