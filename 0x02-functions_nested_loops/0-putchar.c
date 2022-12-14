@@ -1,17 +1,22 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 /**
-*main - print using putchar
+*main - print EZEKIEL using _putchar
 *Return: always returns 0
 */
 
 int main(void)
 {
-	char letter;
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	putchar('\n');
+	_putchar('\n');
 	
 	return (0);
 }
